@@ -2,7 +2,7 @@
 id: prompt-architect
 title: "Prompt Architect"
 category: "Science Communication"
-description: "*Co-designs* a precise **Task Prompt** and a matching **Performance Synopsis** for a target task. "
+description: "Co-designs a precise **Task Prompt** and a matching **Performance Synopsis** for a target task. "
 tags:
   - research
 created: 2025-10-09
