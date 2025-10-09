@@ -161,7 +161,7 @@
     <a id="gemini-link" href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer" 
        class="try-gemini-btn fixed bottom-8 right-8 bg-blue-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg flex items-center space-x-3 z-50">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-        <span>Try in Gemini</span>
+        <span>Paste in Gemini</span>
     </a>
 
     <!-- Footer -->
@@ -516,10 +516,10 @@
                 </div>` : '';
 
             const copyButtonHtml = config.ui?.enableCopyFeature !== false ? 
-                '<button class="btn copy-btn">1. Copy Prompt</button>' : '';
+                '<button class="btn copy-btn">Step 1. Copy Prompt</button>' : '';
                 
             const geminiLinkHtml = config.ui?.enableDirectGeminiLinks !== false ? 
-                `<a href="${config.site?.geminiUrl || 'https://gemini.google.com'}?prompt=${encodedPrompt}" target="_blank" rel="noopener noreferrer" class="btn try-card-btn">2. Try in Gemini</a>` : '';
+                `<a href="${config.site?.geminiUrl || 'https://gemini.google.com'}?prompt=${encodedPrompt}" target="_blank" rel="noopener noreferrer" class="btn try-card-btn">Step 2. Paste in Gemini</a>` : '';
 
             const buttonsHtml = (copyButtonHtml || geminiLinkHtml) ? 
                 `<div class="mt-6 ${copyButtonHtml && geminiLinkHtml ? 'grid grid-cols-2 gap-4' : 'flex'}">
@@ -590,7 +590,7 @@
                 button.classList.remove('copy-btn');
 
                 setTimeout(() => {
-                    button.textContent = '1. Copy Prompt';
+                    button.textContent = 'Step 1. Copy Prompt';
                     button.classList.remove('copied-btn');
                     button.classList.add('copy-btn');
                 }, 2000);
@@ -606,7 +606,7 @@
                     button.classList.add('copied-btn');
                     button.classList.remove('copy-btn');
                     setTimeout(() => {
-                        button.textContent = '1. Copy Prompt';
+                        button.textContent = 'Step 1. Copy Prompt';
                         button.classList.remove('copied-btn');
                         button.classList.add('copy-btn');
                     }, 2000);
