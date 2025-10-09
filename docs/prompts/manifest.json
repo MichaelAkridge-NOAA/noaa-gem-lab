@@ -3,9 +3,10 @@
     "archive-agent.md",
     "data-quality-control.md",
     "research-summarizer.md",
-    "outreach-communications.md"
+    "outreach-communications.md",
+    "prompt-architect.md"
   ],
-  "lastUpdated": "2025-09-25T00:00:00Z",
+  "lastUpdated": "2025-10-09T00:00:00Z",
   "totalPrompts": 5,
   "categories": [
     "Data Management",
