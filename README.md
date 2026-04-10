@@ -4,7 +4,7 @@ A curated collection of AI gems (prompts) designed for NOAA workflows and scient
 ## https://michaelakridge-noaa.github.io/noaa-gem-lab/
 <p align="center">
     <a href="https://michaelakridge-noaa.github.io/noaa-gem-lab/">
-        <img src="docs/assets/s1.png" alt="NOAA Gemini Gem Lab screenshot" width="900" />
+        <img src="docs/assets/s1.png" alt="NOAA Gemini Gem Lab screenshot" width="500" />
     </a>
 </p>
 
