@@ -1,6 +1,6 @@
-# NOAA Prompt Lab
+# NOAA Gemini Gem Lab
 
-A curated collection of AI prompts designed for NOAA workflows and scientific research. 
+A curated collection of AI gems (prompts) designed for NOAA workflows and scientific research.
 
 ## Features
 
